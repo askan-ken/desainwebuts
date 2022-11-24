@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/desainwebuts/static/css/main.f42edb1e.css",
+    "main.js": "/desainwebuts/static/js/main.4cc43baf.js",
+    "static/media/ai.png": "/desainwebuts/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/robot.png": "/desainwebuts/static/media/robot.b3924d6a4b8b19ef9de9.png",
+    "static/media/bill.png": "/desainwebuts/static/media/bill.042c4c8c3a77ddd977e0.png",
+    "static/media/card.png": "/desainwebuts/static/media/card.a2e9df80e8b4106cace9.png",
+    "static/media/desa2.jpg": "/desainwebuts/static/media/desa2.f2e82e2ab89fa7bc9a8c.jpg",
+    "static/media/lampung.png": "/desainwebuts/static/media/lampung.be9f73d66493679458d6.png",
+    "static/media/apple.svg": "/desainwebuts/static/media/apple.e3713dc89ad84e690ab38eae55922d3e.svg",
+    "static/media/people.png": "/desainwebuts/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/instagram.svg": "/desainwebuts/static/media/instagram.c6b8cb38e27fa08147a5848badee6975.svg",
+    "static/media/Discount.svg": "/desainwebuts/static/media/Discount.638a1f441638e7b76e7cd0a4262d3f49.svg",
+    "static/media/wa.svg": "/desainwebuts/static/media/wa.021820826037870d1671f5b7eb3f9526.svg",
+    "static/media/logo.svg": "/desainwebuts/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "static/media/fb.svg": "/desainwebuts/static/media/fb.a6bf98b9f1215841005dacfd5f4f41b6.svg",
+    "static/media/close.svg": "/desainwebuts/static/media/close.c77f10e4c08d40af5f1ccf25a43b2ac5.svg",
+    "static/media/Star.svg": "/desainwebuts/static/media/Star.5baf88ad0a72df4561e5b994f84ab6fe.svg",
+    "static/media/menu.svg": "/desainwebuts/static/media/menu.0b8796dcff6b9d88f160a5096039aa18.svg",
+    "static/media/twitter.svg": "/desainwebuts/static/media/twitter.770c4fec194e1e46d63c494c3abf339c.svg",
+    "static/media/Shield.svg": "/desainwebuts/static/media/Shield.cacb339008a7436142b8c7ef42f59d31.svg",
+    "static/media/linkedin.svg": "/desainwebuts/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
+    "static/media/arrow-up.svg": "/desainwebuts/static/media/arrow-up.4518f6b7e1bbff4c26d77e158730633d.svg",
+    "index.html": "/desainwebuts/index.html",
+    "static/media/Send.svg": "/desainwebuts/static/media/Send.ef141d57be59e51c5b9987321c4311ed.svg",
+    "static/media/quotes.svg": "/desainwebuts/static/media/quotes.434c184457ebf3e0a409048091321839.svg",
+    "main.f42edb1e.css.map": "/desainwebuts/static/css/main.f42edb1e.css.map",
+    "main.4cc43baf.js.map": "/desainwebuts/static/js/main.4cc43baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f42edb1e.css",
+    "static/js/main.4cc43baf.js"
+  ]
+}
