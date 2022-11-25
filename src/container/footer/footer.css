@@ -1,0 +1,116 @@
+.desa__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.desa__footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desa__footer-img{
+    padding: 0;
+    margin: 0;
+}
+.desa__footer-img img{
+    width: 200px;
+}
+.desa__footer-alamat{
+    line-height: 20px;
+}
+.desa__footer-alamat p{
+    color: white;
+}
+.alamat-kontak {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 10px;
+}
+.alamat-kontak span {
+    position: relative;
+    bottom: -5px;
+}.desa__footer-social{
+    display: flex;
+    gap: 10px;
+}
+.wa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #25D366;
+    color: white;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+
+
+    box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+}
+.wa:hover{
+    background: #25d3658c;
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4267B2;
+    color: white;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+
+
+    box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 15px -4px rgba(0,0,0,0.75);
+}
+.fb:hover{
+    background: #4267b2ac;
+}
+.desa__footer-copyright{
+    position: fixed;
+    z-index: 10;
+}
+
+
+@media screen and (max-width:990px){
+    .desa__footer{
+        padding: 0;
+    }
+    .desa__footer-social{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:650px){
+    .desa__footer{
+        padding: 0;
+    }
+    .desa__footer-img img{
+        width: 100%;
+    }
+    .desa__footer-content{
+        font-size: 11px;
+    }
+    .desa__footer-social{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:375px){
+    .desa__footer-social{
+        display: flex;
+        flex-direction: column;
+    }
+}

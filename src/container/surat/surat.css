@@ -1,0 +1,114 @@
+.desa__surat{
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+    background: -moz-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+}
+.desa__surat-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.desa__surat-form-input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 250px;
+}
+.desa__surat-form-input input{
+    background: var(--color-footer);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+}
+
+.desa__surat-form-alamat{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.desa__surat-form-alamat input{
+    background: var(--color-footer);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+}
+.desa__surat-form-alamat div{
+    border-top: transparent solid 10px;
+}
+.desa__surat-form-keluhan{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.desa__surat-form-keluhan input{
+    background: var(--color-footer);
+    border: none;
+    border-radius: 5px;
+    height: 150px;
+}
+.desa__surat-form-btn input{
+    background: rgb(255, 106, 36);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    transition: .3s;
+}
+.desa__surat-form-btn input:hover{
+    background: rgb(186, 68, 14);
+}
+
+
+@media screen and (max-width:990px) {
+    .desa__surat-form input{
+        width: 175px;
+    }
+}
+@media screen and (max-width:750px) {
+    .desa__surat-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:550px) {
+    .desa__surat-form{
+        display: flex;
+        flex-direction: column;
+    }
+}

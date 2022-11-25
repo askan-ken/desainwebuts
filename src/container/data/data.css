@@ -1,0 +1,59 @@
+.data__menu{
+    background: -moz-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 99% 100%,
+    rgba(0, 19, 117, 1) 0%,
+    rgba(98, 6, 147, 1) 100%
+  );
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem 4rem;
+    margin: 2rem 4rem;
+} 
+@media screen and (max-width: 990px){
+    .desa__features {
+        flex-direction: column;
+    }
+    .desa__features-heading{
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .desa__features-heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .desa__features{
+        display: flex;
+        flex-direction: column;
+    }
+}
