@@ -7,7 +7,6 @@ const Surat = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const message = `data is ${filter}`;
     window.alert("Terima Kasih");
     window.open(`/getfilteredrecords/${filter}`);
   };
@@ -19,7 +18,7 @@ const Surat = () => {
             <label htmlFor="name">
               <p>Nama Lengkap</p>
             </label>
-            <input type="nama" placeholder="Ardias Askan Afisina" />
+            <input type="nama" placeholder="Nama sesuai KTP" />
           </div>
           <div className="desa__surat-form-input">
             <label htmlFor="email">
@@ -59,6 +58,7 @@ const Surat = () => {
           <input
             type="textarea"
             onChange={(e) => setFilter(e.target.value)}
+            value={filter}
             rows={150}
             cols={50}
             placeholder="Keluhan dan Saran Anda"
