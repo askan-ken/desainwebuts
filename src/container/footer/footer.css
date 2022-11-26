@@ -108,9 +108,15 @@
         flex-direction: column;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:420px){
+    .desa__footer-alamat{
+    line-height: 10px;
+}
     .desa__footer-social{
         display: flex;
         flex-direction: column;
+    }
+    .desa__footer-img img{
+        display: none;
     }
 }

@@ -167,5 +167,20 @@
         display: block;
     }
 }
+@media screen and (max-width: 420px) {
+    .desa__navbar{
+        padding: 0;
+    }
+    .desa__navbar-sign p,
+    .desa__navbar-sign button {
+        display: none;
+    }
+    .desa__navbar-menu_container{
+        top: 20px;
+    }
+    .desa__navbar-menu_container-links-sign{
+        display: block;
+    }
+}
 
 

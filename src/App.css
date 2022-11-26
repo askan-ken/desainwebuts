@@ -91,25 +91,25 @@ a {
 
 @media screen and (max-width: 375px){
     .section__padding{
-        padding: 4rem;
+        padding: 1rem;
     }
     .section__margin{
-        margin: 4rem;
+        margin: 1rem;
     }
 }
 @media screen and (max-width: 1920px){
     .section__padding{
-        padding: 4rem;
+        padding: 1rem;
     }
     .section__margin{
-        margin: 4rem;
+        margin: 1rem;
     }
 }
 @media screen and (max-width: 1440px){
     .section__padding{
-        padding: 4rem;
+        padding: 1rem;
     }
     .section__margin{
-        margin: 4rem;
+        margin: 1rem;
     }
 }

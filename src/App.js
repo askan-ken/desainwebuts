@@ -1,16 +1,14 @@
 import React from "react";
-import { Brand, Cta, Navbar } from "./component";
+import { Navbar } from "./component";
 import {
   Surat,
   Data,
   Footer,
   Header,
-  Profiledesa,
   Pemerintahan,
+  Wilayah,
 } from "./container";
 import "./App.css";
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
@@ -21,7 +19,7 @@ const App = () => {
       </div>
       <Pemerintahan />
       <Data/>
-      <Profiledesa />
+      <Wilayah />
       <Surat/>
       <div className="gradient__bg">
         <Footer />

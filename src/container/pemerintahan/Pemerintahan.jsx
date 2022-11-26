@@ -8,7 +8,7 @@ const Pemerintahan = () => {
     setToggleState(index);
   };
   return (
-    <div className="desa__pem section__margin" id="pemerintahan">
+    <div className="desa__pem section__padding" id="pemerintahan">
       <div className="desa__pem-feature">
         <h1 className="gradient__text">Pemerintahan Desa</h1>
         <p>

@@ -1,6 +1,4 @@
 .desa__surat{
-    padding: 2rem 4rem;
-    margin: 2rem 4rem;
     background: -moz-radial-gradient(
     circle at 99% 100%,
     rgba(0, 19, 117, 1) 0%,
@@ -110,5 +108,22 @@
     .desa__surat-form{
         display: flex;
         flex-direction: column;
+    }
+}
+@media screen and (max-width:420px) {
+    .desa__surat{
+        padding: 15px 15px 15px 15px;
+    }
+    .desa__surat-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .desa__surat-form-input input{
+        width: 355px;
+        height: 40px;
+    }
+    input{
+        width: 355px;
+        height: 40px;
     }
 }

@@ -47,10 +47,10 @@
   padding-bottom: 2rem;
 }
 
-.desa__pem-feature .desa-container-feature {
+.desa__pem-feature{
   margin: 0;
 }
-.desa__pem-feature .desa-container-feature-text {
+.desa__pem-feature {
   max-width: 700px;
 }
 
@@ -125,9 +125,9 @@ p {
 .active-content {
   display: block;
 }
-li{
+li {
   position: relative;
-  left: 35px;
+  left: -15px;
   list-style-type: decimal;
 }
 
@@ -144,32 +144,33 @@ li{
 }
 
 @media screen and (max-width: 650px) {
-  .desa__pem-feature{
+  .desa__pem-feature {
     font-size: 18px;
     width: auto;
   }
-
-  .desa-heading h1 {
-    font-size: 28px;
-    line-height: 40px;
+  .bloc-tabs {
+    font-size: 11px;
+  }
+  .content-tabs {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 550px) {
-  .desa__pem-feature{
+  .desa__pem-feature {
     font-size: 15px;
     width: 250px;
   }
-
-  .desa-heading h1 {
-    font-size: 28px;
-    line-height: 40px;
-  }
 }
 
-@media screen and (max-width: 400px) {
-  .desa__pem-feature{
+@media screen and (max-width: 420px) {
+  .desa__pem-feature {
     font-size: 11px;
     width: 175px;
   }
-  
+  .bloc-tabs {
+    font-size: 11px;
+  }
+  .content-tabs {
+    font-size: 13px;
+  }
 }

@@ -11,7 +11,7 @@ const Surat = () => {
     window.open(`/getfilteredrecords/${filter}`);
   };
   return (
-    <div className="desa__surat" id="surat">
+    <div className="desa__surat ection__padding" id="surat">
       <form onSubmit={handleSubmit}>
         <div className="desa__surat-form">
           <div className="desa__surat-form-input">

@@ -5,7 +5,7 @@ import './data.css'
 
 const Data = () => {
   return (
-    <div className="desa__data" id="data">
+    <div className="desa__data section__padding" id="data">
       <div className="dropdown">
         <button>
           Statistik Penduduk

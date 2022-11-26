@@ -14,7 +14,7 @@ const Menu = () => (
       <a href="#data">Data Desa</a>
     </p>
     <p>
-      <a href="#profile">Profile Desa</a>
+      <a href="#wilayah">Wilayah Desa</a>
     </p>
     <p>
       <a href="#surat">Surat Online</a>
