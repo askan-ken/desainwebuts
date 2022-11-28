@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/desainwebuts/static/css/main.feb9da72.css",
-    "main.js": "/desainwebuts/static/js/main.ee6149f2.js",
+    "main.css": "/desainwebuts/static/css/main.480fdd42.css",
+    "main.js": "/desainwebuts/static/js/main.1730b64b.js",
     "static/media/ai.png": "/desainwebuts/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/robot.png": "/desainwebuts/static/media/robot.b3924d6a4b8b19ef9de9.png",
     "static/media/bill.png": "/desainwebuts/static/media/bill.042c4c8c3a77ddd977e0.png",
@@ -25,11 +25,11 @@
     "static/media/arrow-up.svg": "/desainwebuts/static/media/arrow-up.4518f6b7e1bbff4c26d77e158730633d.svg",
     "static/media/Send.svg": "/desainwebuts/static/media/Send.ef141d57be59e51c5b9987321c4311ed.svg",
     "static/media/quotes.svg": "/desainwebuts/static/media/quotes.434c184457ebf3e0a409048091321839.svg",
-    "main.feb9da72.css.map": "/desainwebuts/static/css/main.feb9da72.css.map",
-    "main.ee6149f2.js.map": "/desainwebuts/static/js/main.ee6149f2.js.map"
+    "main.480fdd42.css.map": "/desainwebuts/static/css/main.480fdd42.css.map",
+    "main.1730b64b.js.map": "/desainwebuts/static/js/main.1730b64b.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb9da72.css",
-    "static/js/main.ee6149f2.js"
+    "static/css/main.480fdd42.css",
+    "static/js/main.1730b64b.js"
   ]
 }
